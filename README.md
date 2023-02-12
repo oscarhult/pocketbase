@@ -9,5 +9,5 @@ docker run \
   --name pocketbase \
   -v pocketbase_data:/data \
   -v pocketbase_public:/public \
-  ghcr.io/oscarhult/pocketbase:latest
+  ghcr.io/oscarhult/pocketbase
 ```
