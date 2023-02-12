@@ -7,6 +7,7 @@ docker run \
   -d \
   -p 8080:8080 \
   --name pocketbase \
-  -v pocketbase:/data \
+  -v pocketbase_data:/data \
+  -v pocketbase_public:/public \
   ghcr.io/oscarhult/pocketbase:latest
 ```
