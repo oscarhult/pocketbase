@@ -1,5 +1,5 @@
 FROM alpine:latest
-ARG PB_VERSION=0.18.5
+ARG PB_VERSION=0.19.1
 RUN apk add --no-cache unzip ca-certificates
 RUN wget -q -O /tmp/pb.zip https://github.com/pocketbase/pocketbase/releases/download/v${PB_VERSION}/pocketbase_${PB_VERSION}_linux_amd64.zip \
   && unzip /tmp/pb.zip -d /pb/ \
